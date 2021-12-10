@@ -1,9 +1,13 @@
+import java.util.ArrayList;
 
 public class Rota {
 
-	public int km;
+	private  int km;
 	private String partida;
 	private String destino;
+	
+	ArrayList<Viagem> viagem;
+	
 	
 	public int getKm() {
 		return km;

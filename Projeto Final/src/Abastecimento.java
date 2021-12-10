@@ -1,8 +1,11 @@
+import java.util.ArrayList;
 
 public class Abastecimento {
 
 	private double preco;
 	private float litros;
+	
+	ArrayList<Veiculo> veiculos;
 	
 	public double getPreco() {
 		return preco;
